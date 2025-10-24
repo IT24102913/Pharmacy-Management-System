@@ -23,19 +23,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * LOYALTY MANAGEMENT CONTROLLER
- * 
- * Handles all loyalty program admin operations:
- * - View loyalty members and guests
- * - Manage memberships (upgrade/downgrade)
- * - View points balances and history
- * - Delete loyalty members and guests
- * - View loyalty program configuration
- * 
- * Team: Loyalty Management Team
- * Access: Admin only
- */
+
 @Controller
 @RequestMapping("/admin/loyalty")
 public class LoyaltyController {
